@@ -9,7 +9,7 @@
     "format": "prettier --write .",
     "lint": "eslint --fix . --ext .js,.jsx",
     "check": "npm-check",
-    "check-update": "npm-check -u"
+    "check-update": "npm-check -u -E"
   },
   "dependencies": {
     "react": "18.0.0",
