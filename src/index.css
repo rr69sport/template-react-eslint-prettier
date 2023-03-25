@@ -1,3 +1,9 @@
+:root {
+  --dark-color: #18181b;
+  --light-color: #e0dcdc;
+  --main-color: #0c67f0;
+}
+
 *,
 *::after,
 *::before {
@@ -5,8 +11,11 @@
 }
 
 body {
-  margin: 0;
-  font-family: sans-serif;
+  max-width: 768px;
+  margin: 0 auto;
+  color: var(--light-color);
+  background-color: var(--dark-color);
+  font-family: system-ui, sans-serif;
 }
 
 img {

@@ -8,7 +8,12 @@ module.exports = {
       "version": 'detect'
     }
   },
-  "extends": [ 'plugin:react/recommended', 'plugin:react/jsx-runtime', 'standard', 'eslint-config-prettier' ],
+  "extends": [
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'standard',
+    'eslint-config-prettier'
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -23,6 +28,7 @@ module.exports = {
     'array-bracket-spacing': [ 'error', 'always' ],
     'eqeqeq': [ 'error', 'smart' ],
     'quote-props': [ 'error', 'always' ],
-    'no-multiple-empty-lines': [ 'error', { "max": 1 } ]
+    'no-multiple-empty-lines': [ 'error', { "max": 1 } ],
+    'react/prop-types': 'off'
   }
 };
